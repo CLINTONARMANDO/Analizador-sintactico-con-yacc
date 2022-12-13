@@ -1,0 +1,1 @@
+bison -d .\main.y && flex ./main.l && gcc .\main.tab.c .\lex.yy.c -o main.exe && ./main.exe
